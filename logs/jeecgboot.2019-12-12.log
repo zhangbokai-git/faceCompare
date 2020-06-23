@@ -1,0 +1,240 @@
+2019-12-12 09:59:25.043 [main] INFO  org.jeecg.KeycloakAdminClientTest:50 - Starting KeycloakAdminClientTest on WIN-7I7TNFVTVU6 with PID 11136 (started by Administrator in F:\jeecg_boot_online\jeecg-boot\jeecg-boot-module-system)
+2019-12-12 09:59:25.046 [main] INFO  org.jeecg.KeycloakAdminClientTest:679 - The following profiles are active: dev
+2019-12-12 09:59:30.449 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-12 09:59:30.458 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 09:59:30.596 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 83ms. Found 0 repository interfaces.
+2019-12-12 09:59:31.748 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$9f10e8a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 09:59:31.919 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 09:59:32.940 [main] INFO  org.jeecg.config.ShiroConfig:191 - ===============(1)创建缓存管理器RedisCacheManager
+2019-12-12 09:59:32.947 [main] INFO  org.jeecg.config.ShiroConfig:209 - ===============(2)创建RedisManager,连接Redis..URL= 127.0.0.1:6379
+2019-12-12 09:59:33.001 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 09:59:33.036 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 09:59:33.125 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 09:59:33.270 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7f0b7f0b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 09:59:33.751 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 09:59:33.761 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$e899efdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 09:59:33.783 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 09:59:33.818 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 09:59:33.857 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 09:59:33.876 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$94253d55] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 09:59:34.286 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 09:59:34.512 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 09:59:34.672 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConfig' of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$e9df6feb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 09:59:34.784 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$92245cbb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 09:59:34.796 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 09:59:35.319 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator:113 - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2019-12-12 09:59:36.296 [main] INFO  com.alibaba.druid.pool.DruidDataSource:1003 - {dataSource-1,master} inited
+2019-12-12 09:59:36.298 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:203 - 初始共加载 1 个数据源
+2019-12-12 09:59:36.299 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:142 - 动态数据源-加载 master 成功
+2019-12-12 09:59:36.300 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:212 - 当前的默认数据源是单数据源，数据源名为 master
+2019-12-12 09:59:41.871 [main] INFO  org.quartz.impl.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+2019-12-12 09:59:41.897 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-12-12 09:59:41.897 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+2019-12-12 09:59:41.902 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2019-12-12 09:59:41.905 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2019-12-12 09:59:41.906 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-12-12 09:59:41.931 [main] INFO  org.quartz.impl.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-12-12 09:59:41.932 [main] INFO  org.quartz.impl.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+2019-12-12 09:59:41.933 [main] INFO  org.quartz.core.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3a286095
+2019-12-12 09:59:44.772 [main] WARN  org.jeecg.common.es.JeecgElasticsearchTemplate:61 - ElasticSearch 服务连接失败，原因：配置未通过。可能是BaseURL未配置或配置有误，也可能是Elasticsearch服务未启动。接下来将会拒绝执行任何方法！
+2019-12-12 09:59:48.061 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-12 09:59:48.436 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-12 09:59:49.966 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-12 09:59:51.915 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2019-12-12 09:59:51.971 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2019-12-12 09:59:52.065 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2019-12-12 09:59:52.356 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_1
+2019-12-12 09:59:52.359 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_1
+2019-12-12 09:59:52.364 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_1
+2019-12-12 09:59:52.369 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_1
+2019-12-12 09:59:52.372 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_1
+2019-12-12 09:59:52.408 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_2
+2019-12-12 09:59:52.412 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_2
+2019-12-12 09:59:52.419 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_2
+2019-12-12 09:59:52.423 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_2
+2019-12-12 09:59:52.426 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_2
+2019-12-12 09:59:52.443 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryPageListUsingGET_1
+2019-12-12 09:59:52.487 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+2019-12-12 09:59:53.165 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:866 - Freed 0 triggers from 'acquired' / 'blocked' state.
+2019-12-12 09:59:53.202 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:876 - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2019-12-12 09:59:53.203 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:889 - Recovery complete.
+2019-12-12 09:59:53.204 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:896 - Removed 0 'complete' triggers.
+2019-12-12 09:59:53.207 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:901 - Removed 0 stale fired job entries.
+2019-12-12 09:59:53.209 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-12-12 09:59:53.226 [main] INFO  org.jeecg.KeycloakAdminClientTest:59 - Started KeycloakAdminClientTest in 30.397 seconds (JVM running for 36.284)
+2019-12-12 09:59:56.524 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-12-12 09:59:56.528 [Thread-5] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-12 09:59:56.536 [Thread-5] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+2019-12-12 09:59:56.536 [Thread-5] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-12-12 09:59:56.536 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-12-12 09:59:56.541 [Thread-5] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-12-12 09:59:56.546 [Thread-5] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:182 - closing dynamicDatasource  ing....
+2019-12-12 09:59:56.548 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1948 - {dataSource-1} closing ...
+2019-12-12 09:59:56.557 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:2020 - {dataSource-1} closed
+2019-12-12 13:02:26.075 [main] INFO  org.jeecg.KeycloakAdminClientTest:50 - Starting KeycloakAdminClientTest on WIN-7I7TNFVTVU6 with PID 11196 (started by Administrator in F:\jeecg_boot_online\jeecg-boot\jeecg-boot-module-system)
+2019-12-12 13:02:26.107 [main] INFO  org.jeecg.KeycloakAdminClientTest:679 - The following profiles are active: dev
+2019-12-12 13:02:29.833 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-12 13:02:29.845 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 13:02:29.977 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 83ms. Found 0 repository interfaces.
+2019-12-12 13:02:31.010 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$b02abce9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 13:02:31.244 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 13:02:32.263 [main] INFO  org.jeecg.config.ShiroConfig:191 - ===============(1)创建缓存管理器RedisCacheManager
+2019-12-12 13:02:32.266 [main] INFO  org.jeecg.config.ShiroConfig:209 - ===============(2)创建RedisManager,连接Redis..URL= 127.0.0.1:6379
+2019-12-12 13:02:32.316 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 13:02:32.350 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 13:02:32.448 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 13:02:32.553 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$90255353] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 13:02:33.003 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 13:02:33.013 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$f9b3c424] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 13:02:33.038 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 13:02:33.075 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 13:02:33.121 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 13:02:33.142 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$a53f119d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 13:02:33.608 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 13:02:33.787 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 13:02:33.831 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConfig' of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$faf94433] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 13:02:33.968 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$a33e3103] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 13:02:33.979 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 13:02:34.326 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator:113 - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2019-12-12 13:02:35.148 [main] INFO  com.alibaba.druid.pool.DruidDataSource:1003 - {dataSource-1,master} inited
+2019-12-12 13:02:35.148 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:203 - 初始共加载 1 个数据源
+2019-12-12 13:02:35.149 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:142 - 动态数据源-加载 master 成功
+2019-12-12 13:02:35.149 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:212 - 当前的默认数据源是单数据源，数据源名为 master
+2019-12-12 13:02:39.347 [main] INFO  org.quartz.impl.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+2019-12-12 13:02:39.393 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-12-12 13:02:39.394 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+2019-12-12 13:02:39.399 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2019-12-12 13:02:39.401 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2019-12-12 13:02:39.402 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-12-12 13:02:39.402 [main] INFO  org.quartz.impl.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-12-12 13:02:39.403 [main] INFO  org.quartz.impl.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+2019-12-12 13:02:39.404 [main] INFO  org.quartz.core.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1a88d194
+2019-12-12 13:02:41.914 [main] WARN  org.jeecg.common.es.JeecgElasticsearchTemplate:61 - ElasticSearch 服务连接失败，原因：配置未通过。可能是BaseURL未配置或配置有误，也可能是Elasticsearch服务未启动。接下来将会拒绝执行任何方法！
+2019-12-12 13:02:44.836 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-12 13:02:45.297 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-12 13:02:46.793 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-12 13:02:48.827 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2019-12-12 13:02:48.892 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2019-12-12 13:02:48.983 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2019-12-12 13:02:49.448 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_1
+2019-12-12 13:02:49.451 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_1
+2019-12-12 13:02:49.457 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_1
+2019-12-12 13:02:49.461 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_1
+2019-12-12 13:02:49.465 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_1
+2019-12-12 13:02:49.501 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_2
+2019-12-12 13:02:49.505 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_2
+2019-12-12 13:02:49.512 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_2
+2019-12-12 13:02:49.518 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_2
+2019-12-12 13:02:49.520 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_2
+2019-12-12 13:02:49.542 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryPageListUsingGET_1
+2019-12-12 13:02:49.568 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+2019-12-12 13:02:50.293 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:866 - Freed 0 triggers from 'acquired' / 'blocked' state.
+2019-12-12 13:02:50.310 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:876 - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2019-12-12 13:02:50.310 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:889 - Recovery complete.
+2019-12-12 13:02:50.313 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:896 - Removed 0 'complete' triggers.
+2019-12-12 13:02:50.324 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:901 - Removed 0 stale fired job entries.
+2019-12-12 13:02:50.326 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-12-12 13:02:50.344 [main] INFO  org.jeecg.KeycloakAdminClientTest:59 - Started KeycloakAdminClientTest in 26.839 seconds (JVM running for 30.154)
+2019-12-12 13:02:52.275 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-12-12 13:02:52.276 [Thread-5] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-12 13:02:52.283 [Thread-5] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+2019-12-12 13:02:52.284 [Thread-5] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-12-12 13:02:52.284 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-12-12 13:02:52.310 [Thread-5] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-12-12 13:02:52.318 [Thread-5] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:182 - closing dynamicDatasource  ing....
+2019-12-12 13:02:52.327 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1948 - {dataSource-1} closing ...
+2019-12-12 13:02:52.344 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:2020 - {dataSource-1} closed
+2019-12-12 18:58:52.341 [main] INFO  org.jeecg.KeycloakAdminClientTest:50 - Starting KeycloakAdminClientTest on WIN-7I7TNFVTVU6 with PID 5292 (started by Administrator in F:\jeecg_boot_online\jeecg-boot\jeecg-boot-module-system)
+2019-12-12 18:58:52.378 [main] INFO  org.jeecg.KeycloakAdminClientTest:679 - The following profiles are active: dev
+2019-12-12 18:58:58.241 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-12 18:58:58.251 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-12 18:58:58.386 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 112ms. Found 0 repository interfaces.
+2019-12-12 18:58:59.546 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$7a00552a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 18:58:59.761 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 18:59:00.818 [main] INFO  org.jeecg.config.ShiroConfig:191 - ===============(1)创建缓存管理器RedisCacheManager
+2019-12-12 18:59:00.822 [main] INFO  org.jeecg.config.ShiroConfig:209 - ===============(2)创建RedisManager,连接Redis..URL= 127.0.0.1:6379
+2019-12-12 18:59:00.862 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 18:59:00.888 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 18:59:00.975 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 18:59:01.081 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$59faeb94] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 18:59:01.566 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 18:59:01.590 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$c3895c65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 18:59:01.618 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 18:59:01.658 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 18:59:01.744 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 18:59:01.757 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$6f14a9de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 18:59:02.256 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 18:59:02.603 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 18:59:02.651 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConfig' of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$c4cedc74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 18:59:02.772 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$6d13c944] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 18:59:02.783 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-12 18:59:03.122 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator:113 - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2019-12-12 18:59:03.969 [main] INFO  com.alibaba.druid.pool.DruidDataSource:1003 - {dataSource-1,master} inited
+2019-12-12 18:59:03.970 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:203 - 初始共加载 1 个数据源
+2019-12-12 18:59:03.971 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:142 - 动态数据源-加载 master 成功
+2019-12-12 18:59:03.971 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:212 - 当前的默认数据源是单数据源，数据源名为 master
+2019-12-12 18:59:08.988 [main] INFO  org.quartz.impl.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+2019-12-12 18:59:09.012 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-12-12 18:59:09.013 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+2019-12-12 18:59:09.017 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2019-12-12 18:59:09.020 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2019-12-12 18:59:09.022 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-12-12 18:59:09.024 [main] INFO  org.quartz.impl.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-12-12 18:59:09.024 [main] INFO  org.quartz.impl.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+2019-12-12 18:59:09.024 [main] INFO  org.quartz.core.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3387ab0
+2019-12-12 18:59:11.755 [main] WARN  org.jeecg.common.es.JeecgElasticsearchTemplate:61 - ElasticSearch 服务连接失败，原因：配置未通过。可能是BaseURL未配置或配置有误，也可能是Elasticsearch服务未启动。接下来将会拒绝执行任何方法！
+2019-12-12 18:59:14.954 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-12 18:59:15.592 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-12 18:59:17.319 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-12 18:59:19.055 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2019-12-12 18:59:19.112 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2019-12-12 18:59:19.243 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2019-12-12 18:59:19.720 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_1
+2019-12-12 18:59:19.723 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_1
+2019-12-12 18:59:19.728 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_1
+2019-12-12 18:59:19.731 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_1
+2019-12-12 18:59:19.734 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_1
+2019-12-12 18:59:19.784 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_2
+2019-12-12 18:59:19.789 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_2
+2019-12-12 18:59:19.795 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_2
+2019-12-12 18:59:19.800 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_2
+2019-12-12 18:59:19.803 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_2
+2019-12-12 18:59:19.821 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryPageListUsingGET_1
+2019-12-12 18:59:19.850 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+2019-12-12 18:59:20.389 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:866 - Freed 0 triggers from 'acquired' / 'blocked' state.
+2019-12-12 18:59:20.399 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:876 - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2019-12-12 18:59:20.399 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:889 - Recovery complete.
+2019-12-12 18:59:20.402 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:896 - Removed 0 'complete' triggers.
+2019-12-12 18:59:20.405 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:901 - Removed 0 stale fired job entries.
+2019-12-12 18:59:20.407 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-12-12 18:59:20.468 [main] INFO  org.jeecg.KeycloakAdminClientTest:59 - Started KeycloakAdminClientTest in 29.512 seconds (JVM running for 32.511)
+2019-12-12 18:59:22.330 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-12-12 18:59:22.331 [Thread-5] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-12 18:59:22.334 [Thread-5] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+2019-12-12 18:59:22.335 [Thread-5] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-12-12 18:59:22.335 [Thread-5] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-12-12 18:59:22.337 [Thread-5] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-12-12 18:59:22.339 [Thread-5] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:182 - closing dynamicDatasource  ing....
+2019-12-12 18:59:22.342 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:1948 - {dataSource-1} closing ...
+2019-12-12 18:59:22.347 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource:2020 - {dataSource-1} closed

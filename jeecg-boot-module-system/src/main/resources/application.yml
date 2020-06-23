@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev
+swagger:
+  production: false
+  basic:
+    enable: false
+    username: jeecg
+    password: jeecg1314
+keycloak-master:
+    auth-server-url: http://39.100.234.118:8187/auth
+    client-id: admin-cli
+    password: admin
+    realm: master
+    username: admin

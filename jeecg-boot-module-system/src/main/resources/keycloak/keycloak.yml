@@ -1,0 +1,6 @@
+keycloak-master:
+    auth-server-url: http://localhost:8088/auth
+    client-id: admin-cli
+    password: zc
+    realm: master
+    username: zc

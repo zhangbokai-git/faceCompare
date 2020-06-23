@@ -1,0 +1,2 @@
+2019-12-24 09:50:49.562 [main] INFO  org.jeecg.JeecgApplication:50 - Starting JeecgApplication on WIN-7I7TNFVTVU6 with PID 9004 (F:\jeecg_boot_online\jeecg-boot\keycloak_jeecgboot\jeecg-boot-module-system\target\classes started by Administrator in F:\jeecg_boot_online\jeecg-boot\keycloak_jeecgboot)
+2019-12-24 09:50:49.565 [main] INFO  org.jeecg.JeecgApplication:679 - The following profiles are active: dev

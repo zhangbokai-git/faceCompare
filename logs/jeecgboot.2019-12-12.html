@@ -1,0 +1,2091 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Dec 12 09:59:24 CST 2019</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Level">Level</td>
+<td class="Date">Date</td>
+<td class="Message">Message</td>
+<td class="MethodOfCaller">MethodOfCaller</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+</tr>
+
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:25,043</td>
+<td class="Message">Starting KeycloakAdminClientTest on WIN-7I7TNFVTVU6 with PID 11136 (started by Administrator in F:\jeecg_boot_online\jeecg-boot\jeecg-boot-module-system)</td>
+<td class="MethodOfCaller">logStarting</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">50</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:25,046</td>
+<td class="Message">The following profiles are active: dev</td>
+<td class="MethodOfCaller">logStartupProfileInfo</td>
+<td class="FileOfCaller">SpringApplication.java</td>
+<td class="LineOfCaller">679</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:30,449</td>
+<td class="Message">Multiple Spring Data modules found, entering strict repository configuration mode!</td>
+<td class="MethodOfCaller">multipleStoresDetected</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">244</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:30,458</td>
+<td class="Message">Bootstrapping Spring Data repositories in DEFAULT mode.</td>
+<td class="MethodOfCaller">registerRepositoriesIn</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">126</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:30,596</td>
+<td class="Message">Finished Spring Data repository scanning in 83ms. Found 0 repository interfaces.</td>
+<td class="MethodOfCaller">registerRepositoriesIn</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">182</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:31,748</td>
+<td class="Message">Bean &#39;shiroConfig&#39; of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$9f10e8a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:31,919</td>
+<td class="Message">Bean &#39;shiroRealm&#39; of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:32,940</td>
+<td class="Message">===============(1)创建缓存管理器RedisCacheManager</td>
+<td class="MethodOfCaller">redisCacheManager</td>
+<td class="FileOfCaller">ShiroConfig.java</td>
+<td class="LineOfCaller">191</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:32,947</td>
+<td class="Message">===============(2)创建RedisManager,连接Redis..URL= 127.0.0.1:6379</td>
+<td class="MethodOfCaller">redisManager</td>
+<td class="FileOfCaller">ShiroConfig.java</td>
+<td class="LineOfCaller">209</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:33,001</td>
+<td class="Message">Bean &#39;redisManager&#39; of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:33,036</td>
+<td class="Message">Bean &#39;securityManager&#39; of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:33,125</td>
+<td class="Message">Bean &#39;authorizationAttributeSourceAdvisor&#39; of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:33,270</td>
+<td class="Message">Bean &#39;org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration&#39; of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7f0b7f0b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:33,751</td>
+<td class="Message">Bean &#39;spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties&#39; of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:33,761</td>
+<td class="Message">Bean &#39;com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration&#39; of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$e899efdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:33,783</td>
+<td class="Message">Bean &#39;dsProcessor&#39; of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:33,818</td>
+<td class="Message">Bean &#39;dynamicDatasourceAnnotationAdvisor&#39; of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:33,857</td>
+<td class="Message">Bean &#39;spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties&#39; of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:33,876</td>
+<td class="Message">Bean &#39;org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration&#39; of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$94253d55] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:34,286</td>
+<td class="Message">Bean &#39;lettuceClientResources&#39; of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:34,512</td>
+<td class="Message">Bean &#39;redisConnectionFactory&#39; of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:34,672</td>
+<td class="Message">Bean &#39;redisConfig&#39; of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$e9df6feb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:34,784</td>
+<td class="Message">Bean &#39;org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration&#39; of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$92245cbb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:34,796</td>
+<td class="Message">Bean &#39;eventBus&#39; of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:35,319</td>
+<td class="Message">动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">DynamicDataSourceCreator.java</td>
+<td class="LineOfCaller">113</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:36,296</td>
+<td class="Message">{dataSource-1,master} inited</td>
+<td class="MethodOfCaller">init</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">1003</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:36,298</td>
+<td class="Message">初始共加载 1 个数据源</td>
+<td class="MethodOfCaller">afterPropertiesSet</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">203</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:36,299</td>
+<td class="Message">动态数据源-加载 master 成功</td>
+<td class="MethodOfCaller">addDataSource</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">142</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:36,300</td>
+<td class="Message">当前的默认数据源是单数据源，数据源名为 master</td>
+<td class="MethodOfCaller">afterPropertiesSet</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">212</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:41,871</td>
+<td class="Message">Using default implementation for ThreadExecutor</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1208</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:41,897</td>
+<td class="Message">Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">SchedulerSignalerImpl.java</td>
+<td class="LineOfCaller">61</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:41,897</td>
+<td class="Message">Quartz Scheduler v.2.3.0 created.</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">229</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:41,902</td>
+<td class="Message">Using db table-based data access locking (synchronization).</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">672</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:41,905</td>
+<td class="Message">JobStoreCMT initialized.</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">JobStoreCMT.java</td>
+<td class="LineOfCaller">145</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:41,906</td>
+<td class="Message">Scheduler meta-data: Quartz Scheduler (v2.3.0) &#39;quartzScheduler&#39; with instanceId &#39;NON_CLUSTERED&#39;
+  Scheduler class: &#39;org.quartz.core.QuartzScheduler&#39; - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool &#39;org.quartz.simpl.SimpleThreadPool&#39; - with 10 threads.
+  Using job-store &#39;org.springframework.scheduling.quartz.LocalDataSourceJobStore&#39; - which supports persistence. and is not clustered.
+</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">294</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:41,931</td>
+<td class="Message">Quartz scheduler &#39;quartzScheduler&#39; initialized from an externally provided properties instance.</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1362</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:41,932</td>
+<td class="Message">Quartz scheduler version: 2.3.0</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1366</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:41,933</td>
+<td class="Message">JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3a286095</td>
+<td class="MethodOfCaller">setJobFactory</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">2287</td>
+</tr>
+
+<tr class="warn even">
+<td class="Level">WARN</td>
+<td class="Date">2019-12-12 09:59:44,772</td>
+<td class="Message">ElasticSearch 服务连接失败，原因：配置未通过。可能是BaseURL未配置或配置有误，也可能是Elasticsearch服务未启动。接下来将会拒绝执行任何方法！</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">JeecgElasticsearchTemplate.java</td>
+<td class="LineOfCaller">61</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:48,061</td>
+<td class="Message">Exposing 2 endpoint(s) beneath base path &#39;/actuator&#39;</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">EndpointLinksResolver.java</td>
+<td class="LineOfCaller">59</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:48,436</td>
+<td class="Message">Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]</td>
+<td class="MethodOfCaller">initHandlerMethods</td>
+<td class="FileOfCaller">PropertySourcedRequestMappingHandlerMapping.java</td>
+<td class="LineOfCaller">69</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:49,966</td>
+<td class="Message">Initializing ExecutorService &#39;applicationTaskExecutor&#39;</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">ExecutorConfigurationSupport.java</td>
+<td class="LineOfCaller">171</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:51,915</td>
+<td class="Message">Context refreshed</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">DocumentationPluginsBootstrapper.java</td>
+<td class="LineOfCaller">160</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:51,971</td>
+<td class="Message">Found 1 custom documentation plugin(s)</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">DocumentationPluginsBootstrapper.java</td>
+<td class="LineOfCaller">163</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:52,065</td>
+<td class="Message">Scanning for api listing references</td>
+<td class="MethodOfCaller">scan</td>
+<td class="FileOfCaller">ApiListingReferenceScanner.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:52,356</td>
+<td class="Message">Generating unique operation named: addUsingPOST_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:52,359</td>
+<td class="Message">Generating unique operation named: deleteUsingDELETE_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:52,364</td>
+<td class="Message">Generating unique operation named: deleteBatchUsingDELETE_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:52,369</td>
+<td class="Message">Generating unique operation named: editUsingPUT_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:52,372</td>
+<td class="Message">Generating unique operation named: queryByIdUsingGET_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:52,408</td>
+<td class="Message">Generating unique operation named: addUsingPOST_2</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:52,412</td>
+<td class="Message">Generating unique operation named: deleteUsingDELETE_2</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:52,419</td>
+<td class="Message">Generating unique operation named: deleteBatchUsingDELETE_2</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:52,423</td>
+<td class="Message">Generating unique operation named: editUsingPUT_2</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:52,426</td>
+<td class="Message">Generating unique operation named: queryByIdUsingGET_2</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:52,443</td>
+<td class="Message">Generating unique operation named: queryPageListUsingGET_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:52,487</td>
+<td class="Message">Starting Quartz Scheduler now</td>
+<td class="MethodOfCaller">startScheduler</td>
+<td class="FileOfCaller">SchedulerFactoryBean.java</td>
+<td class="LineOfCaller">726</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:53,165</td>
+<td class="Message">Freed 0 triggers from &#39;acquired&#39; / &#39;blocked&#39; state.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">866</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:53,202</td>
+<td class="Message">Recovering 0 jobs that were in-progress at the time of the last shut-down.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">876</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:53,203</td>
+<td class="Message">Recovery complete.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">889</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:53,204</td>
+<td class="Message">Removed 0 &#39;complete&#39; triggers.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">896</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:53,207</td>
+<td class="Message">Removed 0 stale fired job entries.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">901</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:53,209</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED started.</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:53,226</td>
+<td class="Message">Started KeycloakAdminClientTest in 30.397 seconds (JVM running for 36.284)</td>
+<td class="MethodOfCaller">logStarted</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">59</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:56,524</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED paused.</td>
+<td class="MethodOfCaller">standby</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">585</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:56,528</td>
+<td class="Message">Shutting down ExecutorService &#39;applicationTaskExecutor&#39;</td>
+<td class="MethodOfCaller">shutdown</td>
+<td class="FileOfCaller">ExecutorConfigurationSupport.java</td>
+<td class="LineOfCaller">208</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:56,536</td>
+<td class="Message">Shutting down Quartz Scheduler</td>
+<td class="MethodOfCaller">destroy</td>
+<td class="FileOfCaller">SchedulerFactoryBean.java</td>
+<td class="LineOfCaller">844</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:56,536</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.</td>
+<td class="MethodOfCaller">shutdown</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">666</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:56,536</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED paused.</td>
+<td class="MethodOfCaller">standby</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">585</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:56,541</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.</td>
+<td class="MethodOfCaller">shutdown</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">740</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:56,546</td>
+<td class="Message">closing dynamicDatasource  ing....</td>
+<td class="MethodOfCaller">destroy</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">182</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:56,548</td>
+<td class="Message">{dataSource-1} closing ...</td>
+<td class="MethodOfCaller">close</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">1948</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 09:59:56,557</td>
+<td class="Message">{dataSource-1} closed</td>
+<td class="MethodOfCaller">close</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">2020</td>
+</tr>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Dec 12 13:02:25 CST 2019</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Level">Level</td>
+<td class="Date">Date</td>
+<td class="Message">Message</td>
+<td class="MethodOfCaller">MethodOfCaller</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+</tr>
+
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:26,075</td>
+<td class="Message">Starting KeycloakAdminClientTest on WIN-7I7TNFVTVU6 with PID 11196 (started by Administrator in F:\jeecg_boot_online\jeecg-boot\jeecg-boot-module-system)</td>
+<td class="MethodOfCaller">logStarting</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">50</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:26,107</td>
+<td class="Message">The following profiles are active: dev</td>
+<td class="MethodOfCaller">logStartupProfileInfo</td>
+<td class="FileOfCaller">SpringApplication.java</td>
+<td class="LineOfCaller">679</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:29,833</td>
+<td class="Message">Multiple Spring Data modules found, entering strict repository configuration mode!</td>
+<td class="MethodOfCaller">multipleStoresDetected</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">244</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:29,845</td>
+<td class="Message">Bootstrapping Spring Data repositories in DEFAULT mode.</td>
+<td class="MethodOfCaller">registerRepositoriesIn</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">126</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:29,977</td>
+<td class="Message">Finished Spring Data repository scanning in 83ms. Found 0 repository interfaces.</td>
+<td class="MethodOfCaller">registerRepositoriesIn</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">182</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:31,010</td>
+<td class="Message">Bean &#39;shiroConfig&#39; of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$b02abce9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:31,244</td>
+<td class="Message">Bean &#39;shiroRealm&#39; of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:32,263</td>
+<td class="Message">===============(1)创建缓存管理器RedisCacheManager</td>
+<td class="MethodOfCaller">redisCacheManager</td>
+<td class="FileOfCaller">ShiroConfig.java</td>
+<td class="LineOfCaller">191</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:32,266</td>
+<td class="Message">===============(2)创建RedisManager,连接Redis..URL= 127.0.0.1:6379</td>
+<td class="MethodOfCaller">redisManager</td>
+<td class="FileOfCaller">ShiroConfig.java</td>
+<td class="LineOfCaller">209</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:32,316</td>
+<td class="Message">Bean &#39;redisManager&#39; of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:32,350</td>
+<td class="Message">Bean &#39;securityManager&#39; of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:32,448</td>
+<td class="Message">Bean &#39;authorizationAttributeSourceAdvisor&#39; of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:32,553</td>
+<td class="Message">Bean &#39;org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration&#39; of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$90255353] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:33,003</td>
+<td class="Message">Bean &#39;spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties&#39; of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:33,013</td>
+<td class="Message">Bean &#39;com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration&#39; of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$f9b3c424] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:33,038</td>
+<td class="Message">Bean &#39;dsProcessor&#39; of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:33,075</td>
+<td class="Message">Bean &#39;dynamicDatasourceAnnotationAdvisor&#39; of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:33,121</td>
+<td class="Message">Bean &#39;spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties&#39; of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:33,142</td>
+<td class="Message">Bean &#39;org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration&#39; of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$a53f119d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:33,608</td>
+<td class="Message">Bean &#39;lettuceClientResources&#39; of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:33,787</td>
+<td class="Message">Bean &#39;redisConnectionFactory&#39; of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:33,831</td>
+<td class="Message">Bean &#39;redisConfig&#39; of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$faf94433] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:33,968</td>
+<td class="Message">Bean &#39;org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration&#39; of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$a33e3103] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:33,979</td>
+<td class="Message">Bean &#39;eventBus&#39; of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:34,326</td>
+<td class="Message">动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">DynamicDataSourceCreator.java</td>
+<td class="LineOfCaller">113</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:35,148</td>
+<td class="Message">{dataSource-1,master} inited</td>
+<td class="MethodOfCaller">init</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">1003</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:35,148</td>
+<td class="Message">初始共加载 1 个数据源</td>
+<td class="MethodOfCaller">afterPropertiesSet</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">203</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:35,149</td>
+<td class="Message">动态数据源-加载 master 成功</td>
+<td class="MethodOfCaller">addDataSource</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">142</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:35,149</td>
+<td class="Message">当前的默认数据源是单数据源，数据源名为 master</td>
+<td class="MethodOfCaller">afterPropertiesSet</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">212</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:39,347</td>
+<td class="Message">Using default implementation for ThreadExecutor</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1208</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:39,393</td>
+<td class="Message">Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">SchedulerSignalerImpl.java</td>
+<td class="LineOfCaller">61</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:39,394</td>
+<td class="Message">Quartz Scheduler v.2.3.0 created.</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">229</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:39,399</td>
+<td class="Message">Using db table-based data access locking (synchronization).</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">672</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:39,401</td>
+<td class="Message">JobStoreCMT initialized.</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">JobStoreCMT.java</td>
+<td class="LineOfCaller">145</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:39,402</td>
+<td class="Message">Scheduler meta-data: Quartz Scheduler (v2.3.0) &#39;quartzScheduler&#39; with instanceId &#39;NON_CLUSTERED&#39;
+  Scheduler class: &#39;org.quartz.core.QuartzScheduler&#39; - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool &#39;org.quartz.simpl.SimpleThreadPool&#39; - with 10 threads.
+  Using job-store &#39;org.springframework.scheduling.quartz.LocalDataSourceJobStore&#39; - which supports persistence. and is not clustered.
+</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">294</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:39,402</td>
+<td class="Message">Quartz scheduler &#39;quartzScheduler&#39; initialized from an externally provided properties instance.</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1362</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:39,403</td>
+<td class="Message">Quartz scheduler version: 2.3.0</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1366</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:39,404</td>
+<td class="Message">JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1a88d194</td>
+<td class="MethodOfCaller">setJobFactory</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">2287</td>
+</tr>
+
+<tr class="warn even">
+<td class="Level">WARN</td>
+<td class="Date">2019-12-12 13:02:41,914</td>
+<td class="Message">ElasticSearch 服务连接失败，原因：配置未通过。可能是BaseURL未配置或配置有误，也可能是Elasticsearch服务未启动。接下来将会拒绝执行任何方法！</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">JeecgElasticsearchTemplate.java</td>
+<td class="LineOfCaller">61</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:44,836</td>
+<td class="Message">Exposing 2 endpoint(s) beneath base path &#39;/actuator&#39;</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">EndpointLinksResolver.java</td>
+<td class="LineOfCaller">59</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:45,297</td>
+<td class="Message">Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]</td>
+<td class="MethodOfCaller">initHandlerMethods</td>
+<td class="FileOfCaller">PropertySourcedRequestMappingHandlerMapping.java</td>
+<td class="LineOfCaller">69</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:46,793</td>
+<td class="Message">Initializing ExecutorService &#39;applicationTaskExecutor&#39;</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">ExecutorConfigurationSupport.java</td>
+<td class="LineOfCaller">171</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:48,827</td>
+<td class="Message">Context refreshed</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">DocumentationPluginsBootstrapper.java</td>
+<td class="LineOfCaller">160</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:48,892</td>
+<td class="Message">Found 1 custom documentation plugin(s)</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">DocumentationPluginsBootstrapper.java</td>
+<td class="LineOfCaller">163</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:48,983</td>
+<td class="Message">Scanning for api listing references</td>
+<td class="MethodOfCaller">scan</td>
+<td class="FileOfCaller">ApiListingReferenceScanner.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:49,448</td>
+<td class="Message">Generating unique operation named: addUsingPOST_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:49,451</td>
+<td class="Message">Generating unique operation named: deleteUsingDELETE_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:49,457</td>
+<td class="Message">Generating unique operation named: deleteBatchUsingDELETE_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:49,461</td>
+<td class="Message">Generating unique operation named: editUsingPUT_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:49,465</td>
+<td class="Message">Generating unique operation named: queryByIdUsingGET_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:49,501</td>
+<td class="Message">Generating unique operation named: addUsingPOST_2</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:49,505</td>
+<td class="Message">Generating unique operation named: deleteUsingDELETE_2</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:49,512</td>
+<td class="Message">Generating unique operation named: deleteBatchUsingDELETE_2</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:49,518</td>
+<td class="Message">Generating unique operation named: editUsingPUT_2</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:49,520</td>
+<td class="Message">Generating unique operation named: queryByIdUsingGET_2</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:49,542</td>
+<td class="Message">Generating unique operation named: queryPageListUsingGET_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:49,568</td>
+<td class="Message">Starting Quartz Scheduler now</td>
+<td class="MethodOfCaller">startScheduler</td>
+<td class="FileOfCaller">SchedulerFactoryBean.java</td>
+<td class="LineOfCaller">726</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:50,293</td>
+<td class="Message">Freed 0 triggers from &#39;acquired&#39; / &#39;blocked&#39; state.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">866</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:50,310</td>
+<td class="Message">Recovering 0 jobs that were in-progress at the time of the last shut-down.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">876</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:50,310</td>
+<td class="Message">Recovery complete.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">889</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:50,313</td>
+<td class="Message">Removed 0 &#39;complete&#39; triggers.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">896</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:50,324</td>
+<td class="Message">Removed 0 stale fired job entries.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">901</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:50,326</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED started.</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:50,344</td>
+<td class="Message">Started KeycloakAdminClientTest in 26.839 seconds (JVM running for 30.154)</td>
+<td class="MethodOfCaller">logStarted</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">59</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:52,275</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED paused.</td>
+<td class="MethodOfCaller">standby</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">585</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:52,276</td>
+<td class="Message">Shutting down ExecutorService &#39;applicationTaskExecutor&#39;</td>
+<td class="MethodOfCaller">shutdown</td>
+<td class="FileOfCaller">ExecutorConfigurationSupport.java</td>
+<td class="LineOfCaller">208</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:52,283</td>
+<td class="Message">Shutting down Quartz Scheduler</td>
+<td class="MethodOfCaller">destroy</td>
+<td class="FileOfCaller">SchedulerFactoryBean.java</td>
+<td class="LineOfCaller">844</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:52,284</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.</td>
+<td class="MethodOfCaller">shutdown</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">666</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:52,284</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED paused.</td>
+<td class="MethodOfCaller">standby</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">585</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:52,310</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.</td>
+<td class="MethodOfCaller">shutdown</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">740</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:52,318</td>
+<td class="Message">closing dynamicDatasource  ing....</td>
+<td class="MethodOfCaller">destroy</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">182</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:52,327</td>
+<td class="Message">{dataSource-1} closing ...</td>
+<td class="MethodOfCaller">close</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">1948</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 13:02:52,344</td>
+<td class="Message">{dataSource-1} closed</td>
+<td class="MethodOfCaller">close</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">2020</td>
+</tr>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Thu Dec 12 18:58:51 CST 2019</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Level">Level</td>
+<td class="Date">Date</td>
+<td class="Message">Message</td>
+<td class="MethodOfCaller">MethodOfCaller</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+</tr>
+
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:58:52,341</td>
+<td class="Message">Starting KeycloakAdminClientTest on WIN-7I7TNFVTVU6 with PID 5292 (started by Administrator in F:\jeecg_boot_online\jeecg-boot\jeecg-boot-module-system)</td>
+<td class="MethodOfCaller">logStarting</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">50</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:58:52,378</td>
+<td class="Message">The following profiles are active: dev</td>
+<td class="MethodOfCaller">logStartupProfileInfo</td>
+<td class="FileOfCaller">SpringApplication.java</td>
+<td class="LineOfCaller">679</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:58:58,241</td>
+<td class="Message">Multiple Spring Data modules found, entering strict repository configuration mode!</td>
+<td class="MethodOfCaller">multipleStoresDetected</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">244</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:58:58,251</td>
+<td class="Message">Bootstrapping Spring Data repositories in DEFAULT mode.</td>
+<td class="MethodOfCaller">registerRepositoriesIn</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">126</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:58:58,386</td>
+<td class="Message">Finished Spring Data repository scanning in 112ms. Found 0 repository interfaces.</td>
+<td class="MethodOfCaller">registerRepositoriesIn</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">182</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:58:59,546</td>
+<td class="Message">Bean &#39;shiroConfig&#39; of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$7a00552a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:58:59,761</td>
+<td class="Message">Bean &#39;shiroRealm&#39; of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:00,818</td>
+<td class="Message">===============(1)创建缓存管理器RedisCacheManager</td>
+<td class="MethodOfCaller">redisCacheManager</td>
+<td class="FileOfCaller">ShiroConfig.java</td>
+<td class="LineOfCaller">191</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:00,822</td>
+<td class="Message">===============(2)创建RedisManager,连接Redis..URL= 127.0.0.1:6379</td>
+<td class="MethodOfCaller">redisManager</td>
+<td class="FileOfCaller">ShiroConfig.java</td>
+<td class="LineOfCaller">209</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:00,862</td>
+<td class="Message">Bean &#39;redisManager&#39; of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:00,888</td>
+<td class="Message">Bean &#39;securityManager&#39; of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:00,975</td>
+<td class="Message">Bean &#39;authorizationAttributeSourceAdvisor&#39; of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:01,081</td>
+<td class="Message">Bean &#39;org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration&#39; of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$59faeb94] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:01,566</td>
+<td class="Message">Bean &#39;spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties&#39; of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:01,590</td>
+<td class="Message">Bean &#39;com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration&#39; of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$c3895c65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:01,618</td>
+<td class="Message">Bean &#39;dsProcessor&#39; of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:01,658</td>
+<td class="Message">Bean &#39;dynamicDatasourceAnnotationAdvisor&#39; of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:01,744</td>
+<td class="Message">Bean &#39;spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties&#39; of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:01,757</td>
+<td class="Message">Bean &#39;org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration&#39; of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$6f14a9de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:02,256</td>
+<td class="Message">Bean &#39;lettuceClientResources&#39; of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:02,603</td>
+<td class="Message">Bean &#39;redisConnectionFactory&#39; of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:02,651</td>
+<td class="Message">Bean &#39;redisConfig&#39; of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$c4cedc74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:02,772</td>
+<td class="Message">Bean &#39;org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration&#39; of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$6d13c944] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:02,783</td>
+<td class="Message">Bean &#39;eventBus&#39; of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">330</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:03,122</td>
+<td class="Message">动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">DynamicDataSourceCreator.java</td>
+<td class="LineOfCaller">113</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:03,969</td>
+<td class="Message">{dataSource-1,master} inited</td>
+<td class="MethodOfCaller">init</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">1003</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:03,970</td>
+<td class="Message">初始共加载 1 个数据源</td>
+<td class="MethodOfCaller">afterPropertiesSet</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">203</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:03,971</td>
+<td class="Message">动态数据源-加载 master 成功</td>
+<td class="MethodOfCaller">addDataSource</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">142</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:03,971</td>
+<td class="Message">当前的默认数据源是单数据源，数据源名为 master</td>
+<td class="MethodOfCaller">afterPropertiesSet</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">212</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:08,988</td>
+<td class="Message">Using default implementation for ThreadExecutor</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1208</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:09,012</td>
+<td class="Message">Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">SchedulerSignalerImpl.java</td>
+<td class="LineOfCaller">61</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:09,013</td>
+<td class="Message">Quartz Scheduler v.2.3.0 created.</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">229</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:09,017</td>
+<td class="Message">Using db table-based data access locking (synchronization).</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">672</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:09,020</td>
+<td class="Message">JobStoreCMT initialized.</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">JobStoreCMT.java</td>
+<td class="LineOfCaller">145</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:09,022</td>
+<td class="Message">Scheduler meta-data: Quartz Scheduler (v2.3.0) &#39;quartzScheduler&#39; with instanceId &#39;NON_CLUSTERED&#39;
+  Scheduler class: &#39;org.quartz.core.QuartzScheduler&#39; - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool &#39;org.quartz.simpl.SimpleThreadPool&#39; - with 10 threads.
+  Using job-store &#39;org.springframework.scheduling.quartz.LocalDataSourceJobStore&#39; - which supports persistence. and is not clustered.
+</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">294</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:09,024</td>
+<td class="Message">Quartz scheduler &#39;quartzScheduler&#39; initialized from an externally provided properties instance.</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1362</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:09,024</td>
+<td class="Message">Quartz scheduler version: 2.3.0</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1366</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:09,024</td>
+<td class="Message">JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3387ab0</td>
+<td class="MethodOfCaller">setJobFactory</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">2287</td>
+</tr>
+
+<tr class="warn even">
+<td class="Level">WARN</td>
+<td class="Date">2019-12-12 18:59:11,755</td>
+<td class="Message">ElasticSearch 服务连接失败，原因：配置未通过。可能是BaseURL未配置或配置有误，也可能是Elasticsearch服务未启动。接下来将会拒绝执行任何方法！</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">JeecgElasticsearchTemplate.java</td>
+<td class="LineOfCaller">61</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:14,954</td>
+<td class="Message">Exposing 2 endpoint(s) beneath base path &#39;/actuator&#39;</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">EndpointLinksResolver.java</td>
+<td class="LineOfCaller">59</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:15,592</td>
+<td class="Message">Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]</td>
+<td class="MethodOfCaller">initHandlerMethods</td>
+<td class="FileOfCaller">PropertySourcedRequestMappingHandlerMapping.java</td>
+<td class="LineOfCaller">69</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:17,319</td>
+<td class="Message">Initializing ExecutorService &#39;applicationTaskExecutor&#39;</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">ExecutorConfigurationSupport.java</td>
+<td class="LineOfCaller">171</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:19,055</td>
+<td class="Message">Context refreshed</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">DocumentationPluginsBootstrapper.java</td>
+<td class="LineOfCaller">160</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:19,112</td>
+<td class="Message">Found 1 custom documentation plugin(s)</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">DocumentationPluginsBootstrapper.java</td>
+<td class="LineOfCaller">163</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:19,243</td>
+<td class="Message">Scanning for api listing references</td>
+<td class="MethodOfCaller">scan</td>
+<td class="FileOfCaller">ApiListingReferenceScanner.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:19,720</td>
+<td class="Message">Generating unique operation named: addUsingPOST_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:19,723</td>
+<td class="Message">Generating unique operation named: deleteUsingDELETE_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:19,728</td>
+<td class="Message">Generating unique operation named: deleteBatchUsingDELETE_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:19,731</td>
+<td class="Message">Generating unique operation named: editUsingPUT_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:19,734</td>
+<td class="Message">Generating unique operation named: queryByIdUsingGET_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:19,784</td>
+<td class="Message">Generating unique operation named: addUsingPOST_2</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:19,789</td>
+<td class="Message">Generating unique operation named: deleteUsingDELETE_2</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:19,795</td>
+<td class="Message">Generating unique operation named: deleteBatchUsingDELETE_2</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:19,800</td>
+<td class="Message">Generating unique operation named: editUsingPUT_2</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:19,803</td>
+<td class="Message">Generating unique operation named: queryByIdUsingGET_2</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:19,821</td>
+<td class="Message">Generating unique operation named: queryPageListUsingGET_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:19,850</td>
+<td class="Message">Starting Quartz Scheduler now</td>
+<td class="MethodOfCaller">startScheduler</td>
+<td class="FileOfCaller">SchedulerFactoryBean.java</td>
+<td class="LineOfCaller">726</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:20,389</td>
+<td class="Message">Freed 0 triggers from &#39;acquired&#39; / &#39;blocked&#39; state.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">866</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:20,399</td>
+<td class="Message">Recovering 0 jobs that were in-progress at the time of the last shut-down.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">876</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:20,399</td>
+<td class="Message">Recovery complete.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">889</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:20,402</td>
+<td class="Message">Removed 0 &#39;complete&#39; triggers.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">896</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:20,405</td>
+<td class="Message">Removed 0 stale fired job entries.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">901</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:20,407</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED started.</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:20,468</td>
+<td class="Message">Started KeycloakAdminClientTest in 29.512 seconds (JVM running for 32.511)</td>
+<td class="MethodOfCaller">logStarted</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">59</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:22,330</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED paused.</td>
+<td class="MethodOfCaller">standby</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">585</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:22,331</td>
+<td class="Message">Shutting down ExecutorService &#39;applicationTaskExecutor&#39;</td>
+<td class="MethodOfCaller">shutdown</td>
+<td class="FileOfCaller">ExecutorConfigurationSupport.java</td>
+<td class="LineOfCaller">208</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:22,334</td>
+<td class="Message">Shutting down Quartz Scheduler</td>
+<td class="MethodOfCaller">destroy</td>
+<td class="FileOfCaller">SchedulerFactoryBean.java</td>
+<td class="LineOfCaller">844</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:22,335</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.</td>
+<td class="MethodOfCaller">shutdown</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">666</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:22,335</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED paused.</td>
+<td class="MethodOfCaller">standby</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">585</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:22,337</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.</td>
+<td class="MethodOfCaller">shutdown</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">740</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:22,339</td>
+<td class="Message">closing dynamicDatasource  ing....</td>
+<td class="MethodOfCaller">destroy</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">182</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:22,342</td>
+<td class="Message">{dataSource-1} closing ...</td>
+<td class="MethodOfCaller">close</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">1948</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-12-12 18:59:22,347</td>
+<td class="Message">{dataSource-1} closed</td>
+<td class="MethodOfCaller">close</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">2020</td>
+</tr>

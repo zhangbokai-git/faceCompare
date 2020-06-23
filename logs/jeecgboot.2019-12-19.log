@@ -1,0 +1,517 @@
+2019-12-19 15:14:58.280 [main] INFO  org.jeecg.SampleTest:50 - Starting SampleTest on WIN-7I7TNFVTVU6 with PID 11272 (started by Administrator in F:\jeecg_boot_online\jeecg-boot\jeecg-boot-module-system)
+2019-12-19 15:14:58.283 [main] INFO  org.jeecg.SampleTest:679 - The following profiles are active: dev
+2019-12-19 15:15:05.951 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-19 15:15:05.987 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-19 15:15:06.175 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 169ms. Found 0 repository interfaces.
+2019-12-19 15:15:07.410 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$fcbe4f21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:15:07.585 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:15:09.122 [main] INFO  org.jeecg.config.ShiroConfig:191 - ===============(1)创建缓存管理器RedisCacheManager
+2019-12-19 15:15:09.128 [main] INFO  org.jeecg.config.ShiroConfig:209 - ===============(2)创建RedisManager,连接Redis..URL= 127.0.0.1:6379
+2019-12-19 15:15:09.145 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:15:09.199 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:15:09.338 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:15:09.444 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dcb8e58b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:15:09.955 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:15:09.964 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$4647565c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:15:09.987 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:15:09.999 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:15:10.045 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:15:10.098 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$f1d2a3d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:15:10.400 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:15:10.560 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:15:10.623 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConfig' of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$478cd66b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:15:10.765 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$efd1c33b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:15:10.813 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:15:11.957 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 0 (http)
+2019-12-19 15:15:12.005 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-auto-1"]
+2019-12-19 15:15:12.030 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2019-12-19 15:15:12.031 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-19 15:15:12.045 [main] INFO  org.apache.catalina.core.AprLifecycleListener:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\maven\apache-maven-3.3.9\bin;E:\jdk1.8.0_152\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\MySQL\bin;E:\SVNappcontext\bin;E:\SVNclientcontext\bin;C:\Program Files\Git\cmd;F:\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\SSH工具;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-12-19 15:15:12.551 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jeecg-boot]:173 - Initializing Spring embedded WebApplicationContext
+2019-12-19 15:15:12.551 [main] INFO  org.springframework.web.context.ContextLoader:296 - Root WebApplicationContext: initialization completed in 14217 ms
+2019-12-19 15:15:13.636 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator:113 - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2019-12-19 15:15:14.756 [main] INFO  com.alibaba.druid.pool.DruidDataSource:1003 - {dataSource-1,master} inited
+2019-12-19 15:15:14.757 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:203 - 初始共加载 1 个数据源
+2019-12-19 15:15:14.758 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:142 - 动态数据源-加载 master 成功
+2019-12-19 15:15:14.758 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:212 - 当前的默认数据源是单数据源，数据源名为 master
+2019-12-19 15:15:21.427 [main] INFO  org.quartz.impl.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+2019-12-19 15:15:21.523 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-12-19 15:15:21.524 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+2019-12-19 15:15:21.532 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2019-12-19 15:15:21.537 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2019-12-19 15:15:21.538 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-12-19 15:15:21.539 [main] INFO  org.quartz.impl.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-12-19 15:15:21.539 [main] INFO  org.quartz.impl.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+2019-12-19 15:15:21.540 [main] INFO  org.quartz.core.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@60660d21
+2019-12-19 15:15:25.010 [main] WARN  org.jeecg.common.es.JeecgElasticsearchTemplate:61 - ElasticSearch 服务连接失败，原因：配置未通过。可能是BaseURL未配置或配置有误，也可能是Elasticsearch服务未启动。接下来将会拒绝执行任何方法！
+2019-12-19 15:15:27.877 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-19 15:15:28.529 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-19 15:15:30.192 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-19 15:15:32.710 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2019-12-19 15:15:32.773 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2019-12-19 15:15:32.912 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2019-12-19 15:15:33.476 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_1
+2019-12-19 15:15:33.479 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_1
+2019-12-19 15:15:33.484 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_1
+2019-12-19 15:15:33.488 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_1
+2019-12-19 15:15:33.492 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_1
+2019-12-19 15:15:33.547 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_2
+2019-12-19 15:15:33.555 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_2
+2019-12-19 15:15:33.562 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_2
+2019-12-19 15:15:33.567 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_2
+2019-12-19 15:15:33.570 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_2
+2019-12-19 15:15:33.603 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryPageListUsingGET_1
+2019-12-19 15:15:33.620 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+2019-12-19 15:15:34.183 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:866 - Freed 0 triggers from 'acquired' / 'blocked' state.
+2019-12-19 15:15:34.193 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:876 - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2019-12-19 15:15:34.195 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:889 - Recovery complete.
+2019-12-19 15:15:34.208 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:896 - Removed 0 'complete' triggers.
+2019-12-19 15:15:34.209 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:901 - Removed 0 stale fired job entries.
+2019-12-19 15:15:34.214 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-12-19 15:15:34.321 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-auto-1"]
+2019-12-19 15:15:34.472 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:204 - Tomcat started on port(s): 64366 (http) with context path '/jeecg-boot'
+2019-12-19 15:15:34.486 [main] INFO  org.jeecg.SampleTest:59 - Started SampleTest in 38.169 seconds (JVM running for 40.894)
+2019-12-19 15:15:36.460 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==>  Preparing: SELECT id,role_name,role_code,description,create_by,create_time,update_by,update_time FROM sys_role WHERE id=? 
+2019-12-19 15:15:36.474 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==> Parameters: f6817f48af4fb3af11b9e8bf182f618b(String)
+2019-12-19 15:15:36.493 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - <==      Total: 1
+2019-12-19 15:15:36.578 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==>  Preparing: SELECT id,role_name,role_code,description,create_by,create_time,update_by,update_time FROM sys_role WHERE id=? 
+2019-12-19 15:15:36.579 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==> Parameters: e51758fa916c881624b046d26bd09230(String)
+2019-12-19 15:15:36.583 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - <==      Total: 1
+2019-12-19 15:15:36.664 [main] INFO  o.j.m.k.service.impl.PermissionSwitchServiceImpl:65 - create rolepolicy name: admin in client: null
+2019-12-19 15:15:36.698 [main] INFO  o.j.m.k.service.impl.PermissionSwitchServiceImpl:65 - create rolepolicy name: hr in client: null
+2019-12-19 15:15:37.056 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==>  Preparing: SELECT id,role_name,role_code,description,create_by,create_time,update_by,update_time FROM sys_role WHERE id=? 
+2019-12-19 15:15:37.057 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==> Parameters: f6817f48af4fb3af11b9e8bf182f618b(String)
+2019-12-19 15:15:37.059 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - <==      Total: 1
+2019-12-19 15:15:37.060 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==>  Preparing: SELECT id,role_name,role_code,description,create_by,create_time,update_by,update_time FROM sys_role WHERE id=? 
+2019-12-19 15:15:37.062 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==> Parameters: e51758fa916c881624b046d26bd09230(String)
+2019-12-19 15:15:37.066 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - <==      Total: 1
+2019-12-19 15:15:37.245 [main] INFO  o.j.m.keyclock.service.impl.KeyCloakServiceImpl:156 - assigning role: [admin, hr] to user: "1219" of client: "user" in realm: "jeecg-boot"
+2019-12-19 15:15:37.273 [Thread-6] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-12-19 15:15:37.274 [Thread-6] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-19 15:15:37.278 [Thread-6] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+2019-12-19 15:15:37.278 [Thread-6] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-12-19 15:15:37.278 [Thread-6] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-12-19 15:15:37.279 [Thread-6] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-12-19 15:15:37.283 [Thread-6] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:182 - closing dynamicDatasource  ing....
+2019-12-19 15:15:37.288 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource:1948 - {dataSource-1} closing ...
+2019-12-19 15:15:37.295 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource:2020 - {dataSource-1} closed
+2019-12-19 15:40:11.164 [main] INFO  org.jeecg.SampleTest:50 - Starting SampleTest on WIN-7I7TNFVTVU6 with PID 13116 (started by Administrator in F:\jeecg_boot_online\jeecg-boot\jeecg-boot-module-system)
+2019-12-19 15:40:11.167 [main] INFO  org.jeecg.SampleTest:679 - The following profiles are active: dev
+2019-12-19 15:40:18.215 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-19 15:40:18.225 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-19 15:40:18.322 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 81ms. Found 0 repository interfaces.
+2019-12-19 15:40:19.593 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$82dda3e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:40:19.735 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:40:20.848 [main] INFO  org.jeecg.config.ShiroConfig:191 - ===============(1)创建缓存管理器RedisCacheManager
+2019-12-19 15:40:20.855 [main] INFO  org.jeecg.config.ShiroConfig:209 - ===============(2)创建RedisManager,连接Redis..URL= 127.0.0.1:6379
+2019-12-19 15:40:20.876 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:40:20.910 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:40:21.021 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:40:21.092 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$62d83a4e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:40:21.455 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:40:21.465 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$cc66ab1f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:40:21.490 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:40:21.505 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:40:21.553 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:40:21.575 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$77f1f898] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:40:21.868 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:40:22.079 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:40:22.119 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConfig' of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$cdac2b2e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:40:22.258 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$75f117fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:40:22.275 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:40:23.345 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 0 (http)
+2019-12-19 15:40:23.389 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-auto-1"]
+2019-12-19 15:40:23.422 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2019-12-19 15:40:23.423 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-19 15:40:23.442 [main] INFO  org.apache.catalina.core.AprLifecycleListener:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\maven\apache-maven-3.3.9\bin;E:\jdk1.8.0_152\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\MySQL\bin;E:\SVNappcontext\bin;E:\SVNclientcontext\bin;C:\Program Files\Git\cmd;F:\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\SSH工具;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-12-19 15:40:23.803 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jeecg-boot]:173 - Initializing Spring embedded WebApplicationContext
+2019-12-19 15:40:23.804 [main] INFO  org.springframework.web.context.ContextLoader:296 - Root WebApplicationContext: initialization completed in 12549 ms
+2019-12-19 15:40:24.747 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator:113 - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2019-12-19 15:40:25.615 [main] INFO  com.alibaba.druid.pool.DruidDataSource:1003 - {dataSource-1,master} inited
+2019-12-19 15:40:25.617 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:203 - 初始共加载 1 个数据源
+2019-12-19 15:40:25.618 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:142 - 动态数据源-加载 master 成功
+2019-12-19 15:40:25.618 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:212 - 当前的默认数据源是单数据源，数据源名为 master
+2019-12-19 15:40:30.702 [main] INFO  org.quartz.impl.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+2019-12-19 15:40:30.756 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-12-19 15:40:30.757 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+2019-12-19 15:40:30.762 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2019-12-19 15:40:30.765 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2019-12-19 15:40:30.766 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-12-19 15:40:30.767 [main] INFO  org.quartz.impl.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-12-19 15:40:30.767 [main] INFO  org.quartz.impl.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+2019-12-19 15:40:30.767 [main] INFO  org.quartz.core.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@628e0403
+2019-12-19 15:40:33.291 [main] WARN  org.jeecg.common.es.JeecgElasticsearchTemplate:61 - ElasticSearch 服务连接失败，原因：配置未通过。可能是BaseURL未配置或配置有误，也可能是Elasticsearch服务未启动。接下来将会拒绝执行任何方法！
+2019-12-19 15:40:34.990 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-19 15:40:35.545 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-19 15:40:36.236 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-19 15:40:38.036 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2019-12-19 15:40:38.079 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2019-12-19 15:40:38.165 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2019-12-19 15:40:38.506 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_1
+2019-12-19 15:40:38.512 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_1
+2019-12-19 15:40:38.516 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_1
+2019-12-19 15:40:38.520 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_1
+2019-12-19 15:40:38.527 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_1
+2019-12-19 15:40:38.570 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_2
+2019-12-19 15:40:38.573 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_2
+2019-12-19 15:40:38.580 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_2
+2019-12-19 15:40:38.586 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_2
+2019-12-19 15:40:38.603 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_2
+2019-12-19 15:40:38.630 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryPageListUsingGET_1
+2019-12-19 15:40:38.644 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+2019-12-19 15:40:38.919 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:866 - Freed 0 triggers from 'acquired' / 'blocked' state.
+2019-12-19 15:40:38.926 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:876 - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2019-12-19 15:40:38.927 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:889 - Recovery complete.
+2019-12-19 15:40:38.928 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:896 - Removed 0 'complete' triggers.
+2019-12-19 15:40:38.930 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:901 - Removed 0 stale fired job entries.
+2019-12-19 15:40:38.931 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-12-19 15:40:38.946 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-auto-1"]
+2019-12-19 15:40:38.988 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:204 - Tomcat started on port(s): 65351 (http) with context path '/jeecg-boot'
+2019-12-19 15:40:38.991 [main] INFO  org.jeecg.SampleTest:59 - Started SampleTest in 30.046 seconds (JVM running for 33.213)
+2019-12-19 15:40:40.327 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==>  Preparing: SELECT id,role_name,role_code,description,create_by,create_time,update_by,update_time FROM sys_role WHERE id=? 
+2019-12-19 15:40:40.338 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==> Parameters: f6817f48af4fb3af11b9e8bf182f618b(String)
+2019-12-19 15:40:40.359 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - <==      Total: 1
+2019-12-19 15:40:40.360 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==>  Preparing: SELECT id,parent_id,name,perms,perms_type,icon,component,component_name,url,redirect,sort_no,menu_type,is_leaf AS leaf,is_route AS route,keep_alive,description,create_by,del_flag,rule_flag,hidden,create_time,update_by,update_time,status,always_show,internal_or_external FROM sys_permission WHERE id=? 
+2019-12-19 15:40:40.363 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==> Parameters: 3f915b2769fc80648e92d04e84ca059d(String)
+2019-12-19 15:40:40.374 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - <==      Total: 1
+2019-12-19 15:40:40.376 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==>  Preparing: SELECT id,parent_id,name,perms,perms_type,icon,component,component_name,url,redirect,sort_no,menu_type,is_leaf AS leaf,is_route AS route,keep_alive,description,create_by,del_flag,rule_flag,hidden,create_time,update_by,update_time,status,always_show,internal_or_external FROM sys_permission WHERE id=? 
+2019-12-19 15:40:40.377 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==> Parameters: 1a0811914300741f4e11838ff37a1d3a(String)
+2019-12-19 15:40:40.382 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - <==      Total: 1
+2019-12-19 15:40:40.384 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==>  Preparing: SELECT id,parent_id,name,perms,perms_type,icon,component,component_name,url,redirect,sort_no,menu_type,is_leaf AS leaf,is_route AS route,keep_alive,description,create_by,del_flag,rule_flag,hidden,create_time,update_by,update_time,status,always_show,internal_or_external FROM sys_permission WHERE id=? 
+2019-12-19 15:40:40.384 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==> Parameters: 7593c9e3523a17bca83b8d7fe8a34e58(String)
+2019-12-19 15:40:40.391 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - <==      Total: 1
+2019-12-19 15:40:40.451 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==>  Preparing: SELECT id,role_name,role_code,description,create_by,create_time,update_by,update_time FROM sys_role WHERE id=? 
+2019-12-19 15:40:40.452 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==> Parameters: f6817f48af4fb3af11b9e8bf182f618b(String)
+2019-12-19 15:40:40.463 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - <==      Total: 1
+2019-12-19 15:40:40.557 [Thread-6] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-12-19 15:40:40.566 [Thread-6] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-19 15:40:40.570 [Thread-6] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+2019-12-19 15:40:40.570 [Thread-6] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-12-19 15:40:40.571 [Thread-6] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-12-19 15:40:40.572 [Thread-6] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-12-19 15:40:40.576 [Thread-6] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:182 - closing dynamicDatasource  ing....
+2019-12-19 15:40:40.578 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource:1948 - {dataSource-1} closing ...
+2019-12-19 15:40:40.582 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource:2020 - {dataSource-1} closed
+2019-12-19 15:42:45.146 [main] INFO  org.jeecg.SampleTest:50 - Starting SampleTest on WIN-7I7TNFVTVU6 with PID 10152 (started by Administrator in F:\jeecg_boot_online\jeecg-boot\jeecg-boot-module-system)
+2019-12-19 15:42:45.395 [main] INFO  org.jeecg.SampleTest:679 - The following profiles are active: dev
+2019-12-19 15:42:48.009 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-19 15:42:48.017 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-19 15:42:48.134 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 101ms. Found 0 repository interfaces.
+2019-12-19 15:42:49.033 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$285d9237] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:42:49.149 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:42:50.376 [main] INFO  org.jeecg.config.ShiroConfig:191 - ===============(1)创建缓存管理器RedisCacheManager
+2019-12-19 15:42:50.379 [main] INFO  org.jeecg.config.ShiroConfig:209 - ===============(2)创建RedisManager,连接Redis..URL= 127.0.0.1:6379
+2019-12-19 15:42:50.394 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:42:50.429 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:42:50.721 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:42:50.787 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$85828a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:42:51.103 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:42:51.112 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$71e69972] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:42:51.134 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:42:51.148 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:42:51.192 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:42:51.210 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$1d71e6eb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:42:51.535 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:42:51.743 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:42:51.781 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConfig' of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$732c1981] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:42:51.872 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$1b710651] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:42:51.887 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 15:42:52.928 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 0 (http)
+2019-12-19 15:42:52.949 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-auto-1"]
+2019-12-19 15:42:52.968 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2019-12-19 15:42:52.969 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-19 15:42:52.981 [main] INFO  org.apache.catalina.core.AprLifecycleListener:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\maven\apache-maven-3.3.9\bin;E:\jdk1.8.0_152\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\MySQL\bin;E:\SVNappcontext\bin;E:\SVNclientcontext\bin;C:\Program Files\Git\cmd;F:\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\SSH工具;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-12-19 15:42:53.374 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jeecg-boot]:173 - Initializing Spring embedded WebApplicationContext
+2019-12-19 15:42:53.375 [main] INFO  org.springframework.web.context.ContextLoader:296 - Root WebApplicationContext: initialization completed in 7961 ms
+2019-12-19 15:42:54.213 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator:113 - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2019-12-19 15:42:55.351 [main] INFO  com.alibaba.druid.pool.DruidDataSource:1003 - {dataSource-1,master} inited
+2019-12-19 15:42:55.353 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:203 - 初始共加载 1 个数据源
+2019-12-19 15:42:55.354 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:142 - 动态数据源-加载 master 成功
+2019-12-19 15:42:55.354 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:212 - 当前的默认数据源是单数据源，数据源名为 master
+2019-12-19 15:43:00.205 [main] INFO  org.quartz.impl.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+2019-12-19 15:43:00.222 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-12-19 15:43:00.223 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+2019-12-19 15:43:00.227 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2019-12-19 15:43:00.230 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2019-12-19 15:43:00.231 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-12-19 15:43:00.232 [main] INFO  org.quartz.impl.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-12-19 15:43:00.233 [main] INFO  org.quartz.impl.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+2019-12-19 15:43:00.233 [main] INFO  org.quartz.core.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4c897417
+2019-12-19 15:43:02.540 [main] WARN  org.jeecg.common.es.JeecgElasticsearchTemplate:61 - ElasticSearch 服务连接失败，原因：配置未通过。可能是BaseURL未配置或配置有误，也可能是Elasticsearch服务未启动。接下来将会拒绝执行任何方法！
+2019-12-19 15:43:04.517 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-19 15:43:04.906 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-19 15:43:05.493 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-19 15:43:07.514 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2019-12-19 15:43:07.572 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2019-12-19 15:43:07.676 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2019-12-19 15:43:08.067 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_1
+2019-12-19 15:43:08.072 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_1
+2019-12-19 15:43:08.076 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_1
+2019-12-19 15:43:08.079 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_1
+2019-12-19 15:43:08.085 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_1
+2019-12-19 15:43:08.126 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_2
+2019-12-19 15:43:08.130 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_2
+2019-12-19 15:43:08.138 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_2
+2019-12-19 15:43:08.145 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_2
+2019-12-19 15:43:08.160 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_2
+2019-12-19 15:43:08.181 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryPageListUsingGET_1
+2019-12-19 15:43:08.215 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+2019-12-19 15:43:08.489 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:866 - Freed 0 triggers from 'acquired' / 'blocked' state.
+2019-12-19 15:43:08.499 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:876 - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2019-12-19 15:43:08.500 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:889 - Recovery complete.
+2019-12-19 15:43:08.503 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:896 - Removed 0 'complete' triggers.
+2019-12-19 15:43:08.511 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:901 - Removed 0 stale fired job entries.
+2019-12-19 15:43:08.512 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-12-19 15:43:08.526 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-auto-1"]
+2019-12-19 15:43:08.589 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:204 - Tomcat started on port(s): 65472 (http) with context path '/jeecg-boot'
+2019-12-19 15:43:08.597 [main] INFO  org.jeecg.SampleTest:59 - Started SampleTest in 25.262 seconds (JVM running for 26.884)
+2019-12-19 15:43:16.525 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==>  Preparing: SELECT id,role_name,role_code,description,create_by,create_time,update_by,update_time FROM sys_role WHERE id=? 
+2019-12-19 15:43:16.727 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==> Parameters: f6817f48af4fb3af11b9e8bf182f618b(String)
+2019-12-19 15:43:16.884 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - <==      Total: 1
+2019-12-19 15:43:16.896 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==>  Preparing: SELECT id,parent_id,name,perms,perms_type,icon,component,component_name,url,redirect,sort_no,menu_type,is_leaf AS leaf,is_route AS route,keep_alive,description,create_by,del_flag,rule_flag,hidden,create_time,update_by,update_time,status,always_show,internal_or_external FROM sys_permission WHERE id=? 
+2019-12-19 15:43:16.902 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==> Parameters: 3f915b2769fc80648e92d04e84ca059d(String)
+2019-12-19 15:43:16.923 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - <==      Total: 1
+2019-12-19 15:43:16.933 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==>  Preparing: SELECT id,parent_id,name,perms,perms_type,icon,component,component_name,url,redirect,sort_no,menu_type,is_leaf AS leaf,is_route AS route,keep_alive,description,create_by,del_flag,rule_flag,hidden,create_time,update_by,update_time,status,always_show,internal_or_external FROM sys_permission WHERE id=? 
+2019-12-19 15:43:16.936 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==> Parameters: 1a0811914300741f4e11838ff37a1d3a(String)
+2019-12-19 15:43:16.953 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - <==      Total: 1
+2019-12-19 15:43:16.963 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==>  Preparing: SELECT id,parent_id,name,perms,perms_type,icon,component,component_name,url,redirect,sort_no,menu_type,is_leaf AS leaf,is_route AS route,keep_alive,description,create_by,del_flag,rule_flag,hidden,create_time,update_by,update_time,status,always_show,internal_or_external FROM sys_permission WHERE id=? 
+2019-12-19 15:43:16.966 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==> Parameters: 7593c9e3523a17bca83b8d7fe8a34e58(String)
+2019-12-19 15:43:16.986 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - <==      Total: 1
+2019-12-19 15:43:29.060 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==>  Preparing: SELECT id,role_name,role_code,description,create_by,create_time,update_by,update_time FROM sys_role WHERE id=? 
+2019-12-19 15:43:29.063 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==> Parameters: f6817f48af4fb3af11b9e8bf182f618b(String)
+2019-12-19 15:43:29.070 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - <==      Total: 1
+2019-12-19 15:56:01.382 [Thread-6] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-12-19 15:56:01.384 [Thread-6] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-19 15:56:01.389 [Thread-6] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+2019-12-19 15:56:01.389 [Thread-6] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-12-19 15:56:01.389 [Thread-6] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-12-19 15:56:01.390 [Thread-6] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-12-19 15:56:01.394 [Thread-6] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:182 - closing dynamicDatasource  ing....
+2019-12-19 15:56:01.396 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource:1948 - {dataSource-1} closing ...
+2019-12-19 15:56:01.400 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource:2020 - {dataSource-1} closed
+2019-12-19 16:02:44.547 [main] INFO  org.jeecg.SampleTest:50 - Starting SampleTest on WIN-7I7TNFVTVU6 with PID 12448 (started by Administrator in F:\jeecg_boot_online\jeecg-boot\jeecg-boot-module-system)
+2019-12-19 16:02:44.550 [main] INFO  org.jeecg.SampleTest:679 - The following profiles are active: dev
+2019-12-19 16:02:47.768 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-19 16:02:47.777 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-19 16:02:48.021 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 227ms. Found 0 repository interfaces.
+2019-12-19 16:02:48.885 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$fc9efe84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:02:49.126 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:02:50.700 [main] INFO  org.jeecg.config.ShiroConfig:191 - ===============(1)创建缓存管理器RedisCacheManager
+2019-12-19 16:02:50.706 [main] INFO  org.jeecg.config.ShiroConfig:209 - ===============(2)创建RedisManager,连接Redis..URL= 127.0.0.1:6379
+2019-12-19 16:02:50.723 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:02:50.758 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:02:50.835 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:02:50.897 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dc9994ee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:02:51.233 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:02:51.242 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$462805bf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:02:51.267 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:02:51.280 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:02:51.329 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:02:51.375 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$f1b35338] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:02:51.674 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:02:51.825 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:02:51.866 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConfig' of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$476d85ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:02:51.994 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$efb2729e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:02:52.006 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:02:52.718 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 0 (http)
+2019-12-19 16:02:52.743 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-auto-1"]
+2019-12-19 16:02:52.766 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2019-12-19 16:02:52.767 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-19 16:02:52.781 [main] INFO  org.apache.catalina.core.AprLifecycleListener:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\maven\apache-maven-3.3.9\bin;E:\jdk1.8.0_152\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\MySQL\bin;E:\SVNappcontext\bin;E:\SVNclientcontext\bin;C:\Program Files\Git\cmd;F:\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\SSH工具;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-12-19 16:02:53.100 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jeecg-boot]:173 - Initializing Spring embedded WebApplicationContext
+2019-12-19 16:02:53.100 [main] INFO  org.springframework.web.context.ContextLoader:296 - Root WebApplicationContext: initialization completed in 8520 ms
+2019-12-19 16:02:53.884 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator:113 - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2019-12-19 16:02:54.772 [main] INFO  com.alibaba.druid.pool.DruidDataSource:1003 - {dataSource-1,master} inited
+2019-12-19 16:02:54.773 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:203 - 初始共加载 1 个数据源
+2019-12-19 16:02:54.774 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:142 - 动态数据源-加载 master 成功
+2019-12-19 16:02:54.774 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:212 - 当前的默认数据源是单数据源，数据源名为 master
+2019-12-19 16:02:59.428 [main] INFO  org.quartz.impl.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+2019-12-19 16:02:59.443 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-12-19 16:02:59.444 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+2019-12-19 16:02:59.449 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2019-12-19 16:02:59.452 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2019-12-19 16:02:59.453 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-12-19 16:02:59.454 [main] INFO  org.quartz.impl.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-12-19 16:02:59.455 [main] INFO  org.quartz.impl.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+2019-12-19 16:02:59.455 [main] INFO  org.quartz.core.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@189f9f9f
+2019-12-19 16:03:01.520 [main] WARN  org.jeecg.common.es.JeecgElasticsearchTemplate:61 - ElasticSearch 服务连接失败，原因：配置未通过。可能是BaseURL未配置或配置有误，也可能是Elasticsearch服务未启动。接下来将会拒绝执行任何方法！
+2019-12-19 16:03:03.200 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-19 16:03:03.543 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-19 16:03:04.231 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-19 16:03:05.700 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2019-12-19 16:03:05.761 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2019-12-19 16:03:05.853 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2019-12-19 16:03:06.143 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_1
+2019-12-19 16:03:06.148 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_1
+2019-12-19 16:03:06.151 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_1
+2019-12-19 16:03:06.154 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_1
+2019-12-19 16:03:06.157 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_1
+2019-12-19 16:03:06.193 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_2
+2019-12-19 16:03:06.197 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_2
+2019-12-19 16:03:06.203 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_2
+2019-12-19 16:03:06.208 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_2
+2019-12-19 16:03:06.211 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_2
+2019-12-19 16:03:06.240 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryPageListUsingGET_1
+2019-12-19 16:03:06.271 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+2019-12-19 16:03:06.553 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:866 - Freed 0 triggers from 'acquired' / 'blocked' state.
+2019-12-19 16:03:06.563 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:876 - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2019-12-19 16:03:06.564 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:889 - Recovery complete.
+2019-12-19 16:03:06.568 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:896 - Removed 0 'complete' triggers.
+2019-12-19 16:03:06.571 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:901 - Removed 0 stale fired job entries.
+2019-12-19 16:03:06.573 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-12-19 16:03:06.590 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-auto-1"]
+2019-12-19 16:03:06.633 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:204 - Tomcat started on port(s): 49905 (http) with context path '/jeecg-boot'
+2019-12-19 16:03:06.641 [main] INFO  org.jeecg.SampleTest:59 - Started SampleTest in 23.777 seconds (JVM running for 25.432)
+2019-12-19 16:03:08.174 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==>  Preparing: SELECT id,role_name,role_code,description,create_by,create_time,update_by,update_time FROM sys_role WHERE id=? 
+2019-12-19 16:03:08.182 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==> Parameters: f6817f48af4fb3af11b9e8bf182f618b(String)
+2019-12-19 16:03:08.200 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - <==      Total: 1
+2019-12-19 16:03:08.202 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==>  Preparing: SELECT id,parent_id,name,perms,perms_type,icon,component,component_name,url,redirect,sort_no,menu_type,is_leaf AS leaf,is_route AS route,keep_alive,description,create_by,del_flag,rule_flag,hidden,create_time,update_by,update_time,status,always_show,internal_or_external FROM sys_permission WHERE id=? 
+2019-12-19 16:03:08.204 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==> Parameters: 3f915b2769fc80648e92d04e84ca059d(String)
+2019-12-19 16:03:08.214 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - <==      Total: 1
+2019-12-19 16:03:08.215 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==>  Preparing: SELECT id,parent_id,name,perms,perms_type,icon,component,component_name,url,redirect,sort_no,menu_type,is_leaf AS leaf,is_route AS route,keep_alive,description,create_by,del_flag,rule_flag,hidden,create_time,update_by,update_time,status,always_show,internal_or_external FROM sys_permission WHERE id=? 
+2019-12-19 16:03:08.216 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==> Parameters: 1a0811914300741f4e11838ff37a1d3a(String)
+2019-12-19 16:03:08.218 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - <==      Total: 1
+2019-12-19 16:03:08.220 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==>  Preparing: SELECT id,parent_id,name,perms,perms_type,icon,component,component_name,url,redirect,sort_no,menu_type,is_leaf AS leaf,is_route AS route,keep_alive,description,create_by,del_flag,rule_flag,hidden,create_time,update_by,update_time,status,always_show,internal_or_external FROM sys_permission WHERE id=? 
+2019-12-19 16:03:08.221 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==> Parameters: 7593c9e3523a17bca83b8d7fe8a34e58(String)
+2019-12-19 16:03:08.234 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - <==      Total: 1
+2019-12-19 16:03:08.289 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==>  Preparing: SELECT id,role_name,role_code,description,create_by,create_time,update_by,update_time FROM sys_role WHERE id=? 
+2019-12-19 16:03:08.289 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==> Parameters: f6817f48af4fb3af11b9e8bf182f618b(String)
+2019-12-19 16:03:08.296 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - <==      Total: 1
+2019-12-19 16:03:08.426 [Thread-6] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-12-19 16:03:08.435 [Thread-6] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-19 16:03:08.441 [Thread-6] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+2019-12-19 16:03:08.441 [Thread-6] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-12-19 16:03:08.441 [Thread-6] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-12-19 16:03:08.445 [Thread-6] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-12-19 16:03:08.454 [Thread-6] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:182 - closing dynamicDatasource  ing....
+2019-12-19 16:03:08.456 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource:1948 - {dataSource-1} closing ...
+2019-12-19 16:03:08.463 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource:2020 - {dataSource-1} closed
+2019-12-19 16:07:12.964 [main] INFO  org.jeecg.SampleTest:50 - Starting SampleTest on WIN-7I7TNFVTVU6 with PID 8564 (started by Administrator in F:\jeecg_boot_online\jeecg-boot\jeecg-boot-module-system)
+2019-12-19 16:07:12.967 [main] INFO  org.jeecg.SampleTest:679 - The following profiles are active: dev
+2019-12-19 16:07:16.248 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-19 16:07:16.257 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-19 16:07:16.362 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 85ms. Found 0 repository interfaces.
+2019-12-19 16:07:17.276 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$fc0b3db8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:07:17.409 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:07:18.386 [main] INFO  org.jeecg.config.ShiroConfig:191 - ===============(1)创建缓存管理器RedisCacheManager
+2019-12-19 16:07:18.389 [main] INFO  org.jeecg.config.ShiroConfig:209 - ===============(2)创建RedisManager,连接Redis..URL= 127.0.0.1:6379
+2019-12-19 16:07:18.408 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:07:18.447 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:07:18.569 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:07:18.635 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dc05d422] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:07:18.996 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:07:19.005 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$459444f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:07:19.027 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:07:19.041 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:07:19.086 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:07:19.106 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$f11f926c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:07:19.382 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:07:19.607 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:07:19.649 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConfig' of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$46d9c502] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:07:19.782 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$ef1eb1d2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:07:19.798 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 16:07:20.526 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 0 (http)
+2019-12-19 16:07:20.556 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-auto-1"]
+2019-12-19 16:07:20.602 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2019-12-19 16:07:20.603 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-19 16:07:20.615 [main] INFO  org.apache.catalina.core.AprLifecycleListener:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\maven\apache-maven-3.3.9\bin;E:\jdk1.8.0_152\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\MySQL\bin;E:\SVNappcontext\bin;E:\SVNclientcontext\bin;C:\Program Files\Git\cmd;F:\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\SSH工具;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-12-19 16:07:20.983 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jeecg-boot]:173 - Initializing Spring embedded WebApplicationContext
+2019-12-19 16:07:20.984 [main] INFO  org.springframework.web.context.ContextLoader:296 - Root WebApplicationContext: initialization completed in 7986 ms
+2019-12-19 16:07:21.727 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator:113 - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2019-12-19 16:07:22.617 [main] INFO  com.alibaba.druid.pool.DruidDataSource:1003 - {dataSource-1,master} inited
+2019-12-19 16:07:22.618 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:203 - 初始共加载 1 个数据源
+2019-12-19 16:07:22.619 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:142 - 动态数据源-加载 master 成功
+2019-12-19 16:07:22.620 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:212 - 当前的默认数据源是单数据源，数据源名为 master
+2019-12-19 16:07:27.502 [main] INFO  org.quartz.impl.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+2019-12-19 16:07:27.518 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-12-19 16:07:27.519 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+2019-12-19 16:07:27.523 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2019-12-19 16:07:27.526 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2019-12-19 16:07:27.527 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-12-19 16:07:27.529 [main] INFO  org.quartz.impl.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-12-19 16:07:27.529 [main] INFO  org.quartz.impl.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+2019-12-19 16:07:27.530 [main] INFO  org.quartz.core.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@18918ab9
+2019-12-19 16:07:29.900 [main] WARN  org.jeecg.common.es.JeecgElasticsearchTemplate:61 - ElasticSearch 服务连接失败，原因：配置未通过。可能是BaseURL未配置或配置有误，也可能是Elasticsearch服务未启动。接下来将会拒绝执行任何方法！
+2019-12-19 16:07:32.002 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-19 16:07:32.387 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-19 16:07:33.081 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-19 16:07:35.032 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2019-12-19 16:07:35.078 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2019-12-19 16:07:35.170 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2019-12-19 16:07:35.449 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_1
+2019-12-19 16:07:35.453 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_1
+2019-12-19 16:07:35.457 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_1
+2019-12-19 16:07:35.460 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_1
+2019-12-19 16:07:35.464 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_1
+2019-12-19 16:07:35.503 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addUsingPOST_2
+2019-12-19 16:07:35.507 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteUsingDELETE_2
+2019-12-19 16:07:35.514 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteBatchUsingDELETE_2
+2019-12-19 16:07:35.527 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: editUsingPUT_2
+2019-12-19 16:07:35.529 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryByIdUsingGET_2
+2019-12-19 16:07:35.548 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryPageListUsingGET_1
+2019-12-19 16:07:35.599 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+2019-12-19 16:07:35.916 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:866 - Freed 0 triggers from 'acquired' / 'blocked' state.
+2019-12-19 16:07:35.924 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:876 - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2019-12-19 16:07:35.925 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:889 - Recovery complete.
+2019-12-19 16:07:35.931 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:896 - Removed 0 'complete' triggers.
+2019-12-19 16:07:35.934 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:901 - Removed 0 stale fired job entries.
+2019-12-19 16:07:35.937 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-12-19 16:07:35.952 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-auto-1"]
+2019-12-19 16:07:36.001 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:204 - Tomcat started on port(s): 50088 (http) with context path '/jeecg-boot'
+2019-12-19 16:07:36.131 [main] INFO  org.jeecg.SampleTest:59 - Started SampleTest in 25.208 seconds (JVM running for 27.758)
+2019-12-19 16:07:37.292 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==>  Preparing: SELECT id,role_name,role_code,description,create_by,create_time,update_by,update_time FROM sys_role WHERE id=? 
+2019-12-19 16:07:37.301 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - ==> Parameters: f6817f48af4fb3af11b9e8bf182f618b(String)
+2019-12-19 16:07:37.317 [main] DEBUG o.j.modules.system.mapper.SysRoleMapper.selectById:143 - <==      Total: 1
+2019-12-19 16:07:37.339 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==>  Preparing: SELECT id,parent_id,name,perms,perms_type,icon,component,component_name,url,redirect,sort_no,menu_type,is_leaf AS leaf,is_route AS route,keep_alive,description,create_by,del_flag,rule_flag,hidden,create_time,update_by,update_time,status,always_show,internal_or_external FROM sys_permission WHERE id=? 
+2019-12-19 16:07:37.343 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==> Parameters: 13212d3416eb690c2e1d5033166ff47a(String)
+2019-12-19 16:07:37.351 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - <==      Total: 1
+2019-12-19 16:07:37.352 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==>  Preparing: SELECT id,parent_id,name,perms,perms_type,icon,component,component_name,url,redirect,sort_no,menu_type,is_leaf AS leaf,is_route AS route,keep_alive,description,create_by,del_flag,rule_flag,hidden,create_time,update_by,update_time,status,always_show,internal_or_external FROM sys_permission WHERE id=? 
+2019-12-19 16:07:37.352 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==> Parameters: 109c78a583d4693ce2f16551b7786786(String)
+2019-12-19 16:07:37.360 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - <==      Total: 1
+2019-12-19 16:07:37.362 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==>  Preparing: SELECT id,parent_id,name,perms,perms_type,icon,component,component_name,url,redirect,sort_no,menu_type,is_leaf AS leaf,is_route AS route,keep_alive,description,create_by,del_flag,rule_flag,hidden,create_time,update_by,update_time,status,always_show,internal_or_external FROM sys_permission WHERE id=? 
+2019-12-19 16:07:37.362 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - ==> Parameters: 0620e402857b8c5b605e1ad9f4b89350(String)
+2019-12-19 16:07:37.366 [main] DEBUG o.j.m.system.mapper.SysPermissionMapper.selectById:143 - <==      Total: 1
+2019-12-19 16:07:37.426 [Thread-6] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-12-19 16:07:37.428 [Thread-6] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-19 16:07:37.432 [Thread-6] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:844 - Shutting down Quartz Scheduler
+2019-12-19 16:07:37.432 [Thread-6] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-12-19 16:07:37.433 [Thread-6] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-12-19 16:07:37.436 [Thread-6] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-12-19 16:07:37.440 [Thread-6] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:182 - closing dynamicDatasource  ing....
+2019-12-19 16:07:37.442 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource:1948 - {dataSource-1} closing ...
+2019-12-19 16:07:37.447 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource:2020 - {dataSource-1} closed

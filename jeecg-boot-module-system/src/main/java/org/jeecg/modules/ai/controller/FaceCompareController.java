@@ -1,6 +1,5 @@
 package org.jeecg.modules.ai.controller;
 
-import com.alibaba.fastjson.JSONObject;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.jeecg.common.api.vo.Result;

@@ -99,6 +99,7 @@ public class ShiroConfig {
 
 
 		filterChainDefinitionMap.put("/ai/faceCompareController/selectFaceCompare", "anon"); //人脸对比
+		filterChainDefinitionMap.put("/ai/openDoor/userOpenDoor", "anon");
 
 
 		// update-begin--Author:sunjianlei Date:20190813 for：排除字体格式的后缀

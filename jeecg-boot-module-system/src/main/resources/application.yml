@@ -13,10 +13,3 @@ keycloak-master:
     password: admin
     realm: master
     username: admin
-canal:
-  client:
-    instances:
-      example:
-        host: 47.104.96.151
-        port: 11111
-        batchSize: 1000
